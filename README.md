@@ -14,6 +14,8 @@ I figured it would be easier to grab assets from the Instagram page itself rathe
 ### Login Form
 The login form is a basic SPA way of using forms (i.e. handling the onSubmit event). From the 3 components, the login form is probably the easiest.
 
+By using any `username`, `email`, or `phone` listed in [JSON Placeholder Users API](https://jsonplaceholder.typicode.com/users), it will show a welcome message with the corresponding user's name. Invalid credentials will also be flashed into the view if attempted.
+
 ### Site Footer
 The site footer is also easay to follow. However the original site had language preference, I decided to add theme switching since it was also included in the criteria.
 
